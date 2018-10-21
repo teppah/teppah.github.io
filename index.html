@@ -55,7 +55,13 @@
 
         $('reveal').onclick = function() {
             var secretElement = $('secret');
-            secretElement.hidden = false;
+            if (secretElement.hidden === true) {
+                secretElement.hidden = false;
+                console.log('showing element');
+            } else {
+                secretElement.hidden = true;
+                console.log('hiding element');
+            }
 
         }
 
