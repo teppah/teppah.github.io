@@ -9,18 +9,71 @@
     <link rel="stylesheet"
           href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
           integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <!--FontAwesome-->
+    <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js"
+            integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1"
+            crossorigin="anonymous"></script>
     <title>Yi Feng Yang</title>
 </head>
 <body>
-<div class="jumbotron text-center">
-    <h1>Hello.</h1>
-    <p>this is a test.</p>
-    <p>v2</p>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Yi Feng Yang</a>
+    <!--dropdown button-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">About</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/teppah">My GitHub</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+<header>
+    <div class="jumbotron text-center border-bottom border-light-gray" align="center">
+        <img class="rounded-circle card-img-top border bg-white border-light-gray circle" src="res/face.png"
+             alt="Yi Feng Yang" style="width: 150px; height: 150px;">
+        <hr class="col-lg-4">
+        <h1 class="display-2" style="font-family: 'Fjalla One', sans-serif;">Yi Feng Yang</h1>
+        <h2 class="display-4">Aspiring software engineer</h2>
+    </div>
+</header>
+<div class="col-lg-12" align="center">
+    <div class="col-lg-4">
+        <div id="about" align="left">
+            <h2 style="font-family: 'Fjalla One', sans-serif;">About me</h2>
+            <hr>
+            <p>I am a young and passionate software developer that's all about applying current and new
+                technologies towards a greater cause. I love to involve myself in new and exciting
+                opportunities that allow me to explore new technologies and meet new people.</p>
+        </div>
+        <div id="contact" align="left">
+            <h2 style="font-family: 'Fjalla One', sans-serif;">Contact me</h2>
+            <hr>
+            <i class="fab fa-linkedin-in"></i>
+            <a href='https://ca.linkedin.com/in/yf-yang?trk=profile-badge'>
+                My Profile
+            </a>
+            <br>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:yifengyang01@gmail.com">yifengyang01@gmail.com</a>
+        </div>
+    </div>
 </div>
 </body>
-
-
 <!--jQuery-->
 <script crossorigin="anonymous"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
@@ -33,4 +86,5 @@
 <script crossorigin="anonymous"
         integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
         src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+
 </html>
