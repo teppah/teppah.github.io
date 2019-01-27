@@ -1,8 +1,16 @@
 html {
     scroll-behavior: smooth;
 }
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.section-title {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.contact-icon {
+    margin-right: 5px;
+}
 
