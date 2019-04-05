@@ -16,5 +16,13 @@ body {
 
 .flex-container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+.text-box {
+    margin: 20px;
+    /*display: flex;*/
+    /*justify-content: space-around;*/
 }
