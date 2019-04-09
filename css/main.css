@@ -1,28 +1,10 @@
-html {
-    scroll-behavior: smooth;
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+html, body {
+    margin: 0px;
 }
 
-body {
-    font-family: 'Montserrat', sans-serif;
+.card-container {
+    padding: 20px 0;
 }
 
-.section-title {
-    font-family: 'Fjalla One', sans-serif;
-}
-
-.contact-icon {
-    margin-right: 5px;
-}
-
-.body-container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-flow: row wrap;
-    align-items: flex-start;
-}
-
-.text-box {
-    margin: 20px;
-    /*display: flex;*/
-    /*justify-content: space-around;*/
-}
